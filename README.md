@@ -63,6 +63,22 @@ Built an enterprise-style Extended Detection & Response platform with **23 Flask
 
 ---
 
+### ☁️ SecureCloud-IaC — Private AWS Infrastructure Security
+
+**AWS • Terraform • Python • GitHub Actions • Checkov • OIDC**
+
+Provisioned a private AWS EC2 environment using Terraform and built automated Python checks for selected cloud security controls. GitHub Actions validates Terraform, runs Checkov, authenticates to AWS using GitHub OIDC, executes live checks, and uploads a timestamped JSON security report.
+
+- Private EC2 subnet with no public IPv4 address
+- IMDSv2 required and encrypted EBS storage
+- Security-group inbound-rule and default-route checks
+- Seven validation checks recorded as passing in a successful run
+- Downloadable JSON report artifact with 14-day retention
+
+🔗 **[View Repository](https://github.com/sam29sahil/SecureCloud-IaC)** · [Actions](https://github.com/sam29sahil/SecureCloud-IaC/actions)
+
+---
+
 ### ☁️ CloudShield Enterprise
 
 **Cloud Security • Flask • Azure • Security Assessment**
@@ -142,6 +158,9 @@ Built a web-based password strength checker that identifies weak password patter
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Checkov](https://img.shields.io/badge/Checkov-Cloud%20IaC%20Security-4B9CD3?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
